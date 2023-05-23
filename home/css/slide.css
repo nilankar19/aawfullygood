@@ -49,14 +49,14 @@
 
 @media (max-width: 1280px){
 .aawfully-products-slider-block .swiper-container .swiper-button-next {
-    right: calc(50% - 500px);
+    /* right: calc(50% - 500px); */
 }
 .aawfully-products-slider-block .swiper-container .swiper-button-prev {
-    left: calc(50% - 500px);
+    /* left: calc(50% - 500px); */
 }
 }
 .aawfully-products-slider-block .swiper-container .swiper-button-next {
-    right: calc(50% - 520px);
+    /* right: calc(50% - 520px); */
 }
 .aawfully-products-slider-block .swiper-container .swiper-button-prev, .aawfully-products-slider-block .swiper-container .swiper-button-next {
     width: 36px;
