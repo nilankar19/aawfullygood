@@ -44,7 +44,23 @@
   .slideshow-container .button.active {
     background-color: #717171;
   }
+  .slideshow-container {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Allow the height to adjust based on the image aspect ratio */
+    overflow: hidden; /* Hide any overflowing content */
+  }
 
+  .slide {
+    position: relative;
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Allow the height to adjust based on the image aspect ratio */
+  }
+
+  .slide img {
+    display: block;
+    max-width: 100%; /* Ensure the image does not exceed the container's width */
+    height: auto; /* Allow the height to adjust based on the image aspect ratio */
+  }
 
 
 @media (max-width: 1280px){
