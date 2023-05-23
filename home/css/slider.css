@@ -2540,14 +2540,15 @@ background-image:linear-gradient(to right, #ffbf02, #ed0082); color:rgba(0, 0, 0
 .aawfully-nutrients-table .table-resonsive {
     display: block;
     overflow-x: auto;
-    padding-bottom: 134px
+    padding-bottom: 134px;
+    padding-top:50px;
 }
 
 .aawfully-nutrients-table h2 {
     text-align: center;
     font-size: 40px;
     line-height: 1;
-    font-weight: 900
+    font-weight: 900;
 }
 
 .aawfully-nutrients-table h2+p {
