@@ -1,0 +1,98 @@
+
+.customer-card-wrapper{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 48px;
+    padding-right: 48px;
+    position: relative;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.customer-card-wrapper-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+    @media (max-width: 767px) {
+        .customer-card-wrapper{
+            padding-bottom: 258px !important;
+        }
+        .customer-card-wrapper-main {
+          grid-template-columns: 1fr;
+          grid-template-rows: auto;
+        }
+        .customer-card-container-advice{
+            padding-top:48px;
+        }
+    }
+
+.customer-card-container{
+    text-align: center;
+    border: 1px solid greenyellow;
+    border-radius: 40px;
+
+}
+.customer-card-container-main{
+
+    padding: 50px 64px 40px;
+    margin: 0;
+    border: 0;
+    font-style: normal;
+    background: rgba(0,0,0,.05);
+    border-radius: 16px;
+    height: 100%;
+}
+
+.customer-card-container-main p{
+    font-family: sohne-breit;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: .01em;
+}
+.customer-card-container-main cite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    font-style: normal;
+    font-size: 1.125rem;
+    color: #000;
+    font-family: sohne;
+
+}
+.customer-card-customer-img{
+ border-radius: 100px;
+border: 1px solid green;
+/* width: 48px;
+height: 48px;
+padding: 10px; */
+padding: 10px;
+margin-bottom: 16px;
+    width: 112px;
+    height: 112px;
+    object-fit: contain;
+    display: block;
+}
+.customer-card-customer-name{
+    font-family: sohne-breit;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.customer-card-customer-details{
+
+}
+.customer-card-container-advice{
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+font-family: grandslang;
+font-size: 60px;
+}
